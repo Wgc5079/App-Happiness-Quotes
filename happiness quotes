@@ -42,3 +42,7 @@ class HappinessQuotes:
 if __name__ == "__main__":
     happiness_quotes_app = HappinessQuotes()
     happiness_quotes_app.main_menu()
+
+#The user can add happiness quotes with their name.
+#The user can display all the added quotes.
+#The user can exit the application.
