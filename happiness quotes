@@ -1,0 +1,44 @@
+class HappinessQuotes:
+    def __init__(self):
+        self.quotes = {}
+
+    def add_quote(self, name, quote):
+        if name in self.quotes:
+            self.quotes[name].append(quote)
+        else:
+            self.quotes[name] = [quote]
+
+    def display_quotes(self):
+        for name, quotes in self.quotes.items():
+            print(f"\nQuotes for {name}:")
+            for i, quote in enumerate(quotes, 1):
+                print(f"{i}. {quote}")
+
+    def main_menu(self):
+        while True:
+            print("\n--- Happiness Quotes App ---")
+            print("1. Add a Happiness Quote")
+            print("2. Display Happiness Quote")
+            print("3. Exit")
+
+            choice = input("Enter your choice (1/2/3): ")
+
+            if choice == '1':
+                name = input("Enter you name: ")
+                quote = input("Write a positive quotes: ")
+                self.add_quote(name, quote)
+                print("Quote added successfully!")
+
+            elif choice == '2':
+                self.display_quotes()
+
+            elif choice == '3':
+                print("Exiting Happiness Quotes App. Have a joyful day!")
+                break
+
+            else:
+                print("Invalid choice. Please enter 1, 2, or 3.")
+
+if __name__ == "__main__":
+    happiness_quotes_app = HappinessQuotes()
+    happiness_quotes_app.main_menu()
