@@ -7,13 +7,13 @@ class HappinessQuotes:
             self.quotes[name].append(quote)
         else:
             self.quotes[name] = [quote]
-
+#this command is for the username
     def display_quotes(self):
         for name, quotes in self.quotes.items():
             print(f"\nQuotes for {name}:")
             for i, quote in enumerate(quotes, 1):
                 print(f"{i}. {quote}")
-
+#this command is the next part for the username 
     def main_menu(self):
         while True:
             print("\n--- Happiness Quotes App ---")
@@ -22,7 +22,7 @@ class HappinessQuotes:
             print("3. Exit")
 
             choice = input("Enter your choice (1/2/3): ")
-
+#these commands are what the user needs to choose
             if choice == '1':
                 name = input("Enter you name: ")
                 quote = input("Write a positive quotes: ")
@@ -38,7 +38,7 @@ class HappinessQuotes:
 
             else:
                 print("Invalid choice. Please enter 1, 2, or 3.")
-
+#these commands is what the user need to fill out
 if __name__ == "__main__":
     happiness_quotes_app = HappinessQuotes()
     happiness_quotes_app.main_menu()
