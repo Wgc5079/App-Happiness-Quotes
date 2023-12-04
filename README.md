@@ -1,9 +1,19 @@
 # App-Happiness-Quotes
 
-This app allows the user to add their own happiness quote into the database. The quote can be anything and whatever they feel happy about, the quote will be stored and can be displayed whenever the user wants to access it.
+The application came from the idea of being able to help people with romantic problems and using the application they can create or have some quotes that cheer them up during the day. 
 
-This app Help people to write they own quotes or quotes they find on the internet  
+When you start the application, the first thing it will ask for would be the user's name and after this the application would ask the user if they want to write a quote that would be number 1 or read one that is already saved in the database that would be number 2 and there would be another question that would be to say that this would be number 3 based on the user's response, the application would work somewhat differently. 
 
-This app is to make people happy when they have a problem, they can read a happy quote and make their life happy or create happy quotes or just quotes. 
+1.If the user responded by writing a quote that is number 1, the application would work this way. After responding, the user would have to write the quote and after it finished it, it would be saved in the database. 
 
-Users can use the app every day and have a quote to start the day and try to follow the quote on the day. 
+2.If the user responded to read a quote that is number 2, the application would work this way. After having responded, the application would review its database and choose an appointment and then the application would show an appointment to the user. 
+
+3.If the user responded exit that it is number 3, the application would work this way. After answering the application, it would finish working. 
+
+This app helps people write their own quotes or quotes they find on the internet. 
+
+This application is to make people happy when they have a problem, they can read a happy quote and be able to improve their days. 
+
+Users can use the app every day and have a quote so they can start the day and try to follow the quote that day. 
+
+This app allows the user to add their own happiness quote to the database. The quote can be anything and anything they like; the quote will be stored and can be displayed whenever the user wants to access it. 
