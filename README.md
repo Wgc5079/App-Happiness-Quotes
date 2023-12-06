@@ -17,3 +17,20 @@ This application is to make people happy when they have a problem, they can read
 Users can use the app every day and have a quote so they can start the day and try to follow the quote that day. 
 
 This app allows the user to add their own happiness quote to the database. The quote can be anything and anything they like; the quote will be stored and can be displayed whenever the user wants to access it. 
+
+
+
+# Explanation of the code
+
+This Python code defines a class called HappinessQuotes which represents an app for managing and displaying happiness quotes. Here's a breakdown of the code:
+
+The HappinessQuotes class has the following methods:
+
+1. __init__: This is the constructor method that initializes an empty dictionary self.quotes to store the quotes.
+2. add_quote: This method takes a name and a quote as input and adds the quote to the dictionary of quotes. If the name already exists in the dictionary, the quote is appended to the existing list of quotes for that name. If the name does not exist, a new entry is created in the dictionary.
+3. display_quotes: This method iterates through the dictionary of quotes and displays the quotes for each name.
+4. main_menu: This method provides a simple text-based menu for the user to interact with the app. It allows the user to add a new happiness quote, display existing quotes, or exit the app.
+
+The if __name__ == "__main__": block creates an instance of the HappinessQuotes class and calls the main_menu method to start the app.
+
+When the app is run, it presents a menu to the user, allowing them to add new happiness quotes, display existing quotes, or exit the app. The quotes are stored in a dictionary where the key is the name of the person and the value is a list of their quotes. The app provides a simple way to manage and display happiness quotes.
