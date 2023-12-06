@@ -6,9 +6,9 @@ When you start the application, the first thing it will ask the user would be if
 
 1.If the user responded by writing a quote which is number 1, the application would work this way. After responding, the user would have to write the quote and after it finished it, it would be saved in the database. 
 
-2.If the user responded to read a quote wich is number 2, the application would work this way. After having responded, the application would review its database and choose an appointment and then the application would show an appointment to the user. 
+2.If the user responded to read a quote wich is number 2, the application would work this way. After having responded, the application would review its database and choose an quote and then the application would show an quote to the user. 
 
-3.If the user responded exit wich is number 3, the application would work this way. After answering the application, it would finish working. 
+3.If the user responded exit which is number 3, the application would work this way. After answering the application, it would finish working. 
 
 This app helps people write their own quotes or quotes they find on the internet. 
 
