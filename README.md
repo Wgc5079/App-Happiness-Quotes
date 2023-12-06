@@ -1,6 +1,6 @@
 # App-Happiness-Quotes
 
-The application came from the idea of being able to help people with romantic problems and using the application they can create or have some quotes that cheer them up during the day. 
+The application came from the idea of being able to help people with problems and using the application they can create or have some quotes that cheer them up during the day. 
 
 When you start the application, the first thing it will ask the user would be if the user want to write a quote which is number 1 or read one that is already saved in the database which is number 2 and there would be another question that would be exit which is number 3 based on the user's response, the application would work somewhat differently after the user chose the aplication will ask the user's name.
 
